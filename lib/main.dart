@@ -1,3 +1,40 @@
+// ANTONIO Readability and Structure
+// ANTONIO All variables are consistent and follow the same naming convention
+// ANTONIO The code is very well structured and easy to follow
+// ANTONIO There are no comments in the code which makes some parts harder to understand
+// ANTONIO However the readme file and the clear variable names make it clear enough
+
+// ANTONIO Logic and Functionality
+// ANTONIO The code produces the expected outputs
+// ANTONIO The app does take into account edge cases such as empty task titles
+// ANTONIO It is worth noting that you can add tasks with empty descriptions or dates
+
+// ANTONIO Code Structure and Design
+// ANTONIO The code has modularity incorporated into its structure
+// ANTONIO However there are some parts of the code that could be reformatted
+// ANTONIO For example, the addTask, toggleShowCompletedTasks and _showTaskDialog functions...
+// ... could be extracted into a separate class in order to simplify the _todoListScreenState class
+// ANTONIO There are no duplicated parts of code that could be turned into functions
+// ANTONIO The coder makes proper use of libraries and imports
+
+// ANTONIO Maintainability
+// ANTONIO Making changes to the code could be hard in the future because of the functions being in the same class
+// ANTONIO Also, since the code only uses one screen for completed and pending tasks...
+// ... it could be hard to add new features to the app in the future without reformatting...
+// ... the existing code for separating the completed and pending tasks screens
+// ANTONIO The README file that accompanies the code is clear and explains the code for...
+// ... anyone who wants to make changes to it in the future
+
+// ANTONIO Collaboration and Workflow
+// ANTONIO I cannot comment on the commit messages since I cannot see them on GitHub
+// ANTONIO The files are organized in a logical matter and follow standard flutter protocol
+
+// ANTONIO Usability
+// ANTONIO The app is very responsive and has no noticeable delay in the inputs
+// ANTONIO The app does not use a NavBar for smaller screens which makes it a bit harder to use
+// ANTONIO When adding a new task it would be better if it displayed the selected date after being selected
+// ANTONIO The User Interface could be improved in order to look more clean and consistent
+
 import 'package:flutter/material.dart';
 
 void main() {
